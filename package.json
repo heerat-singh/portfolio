@@ -1,6 +1,10 @@
 {
+  "name": "heerat-singh-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "npx": "^10.2.2",
+    "create-react-app": "^5.0.1",
+    "npx": "^3.0.0",
     "react": "^18.2.0"
   }
 }
