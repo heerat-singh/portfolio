@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion';
 
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
@@ -34,7 +34,12 @@ const Header = () => (
 
                 <div className="tag-cmp app__flex">
                     <p className="p-text">Full Stack Developer</p>
+                </div>
+                <div className="tag-cmp app__flex">
                     <p className="p-text">Backend Developer</p>
+                </div>
+                <div className="tag-cmp app__flex">
+                    <p className="p-text">Cloud Solution Architect</p>
                 </div>
             </div>
         </motion.div>
