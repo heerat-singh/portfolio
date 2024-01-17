@@ -22,12 +22,12 @@ const Testimonials = () => {
 
         client.fetch(query).then((data) => {
             setTestimonials(data);
-            console.log('testimonials ',data);
+
         });
 
         client.fetch(brandsQuery).then((data) => {
             setBrands(data);
-            console.log('brands ',data);
+
         });
     }, []);
 

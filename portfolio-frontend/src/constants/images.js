@@ -37,6 +37,8 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import halloween from '../assets/halloween.png'
+import diya from '../assets/diya.jpeg'
 
 export default {
     email,
@@ -74,5 +76,7 @@ export default {
     spotify,
     java,
     spring,
-    aws
+    aws,
+    halloween,
+    diya
 };
