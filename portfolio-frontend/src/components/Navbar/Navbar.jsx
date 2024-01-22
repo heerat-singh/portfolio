@@ -3,6 +3,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
 import { images } from '../../constants';
+import { resume } from '../../constants/resume';
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -27,6 +28,10 @@ const Navbar = () => {
                         <a href={`#${item}`}>{item}</a>
                     </li>
                 ))}
+                <li className="app__flex">
+                <div/>
+                <a href={resume} target="_black">RESUME</a>
+                </li>
             </ul>
 
             <div className="app__navbar-menu">
